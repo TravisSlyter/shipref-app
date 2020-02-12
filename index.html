@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Carton Reference App</title>
+</head>
+<body>
+
+    <div action="" id="ui">
+        <header class="header">
+            <span class="item-count"></span>
+            <div class="togbox">
+                <input type="checkbox" id="toggle" class="checkbox">
+                <label for="toggle" class="switch"></label>
+            </div>
+        </header>
+        
+        <main>
+
+            <div class="sidebar">
+                <input type="button" value="1038" class="sidebtn">
+                <input type="button" value="1090" class="sidebtn">
+                <input type="button" value="1243" class="sidebtn">
+                <input type="button" value="1250" class="sidebtn">
+                <input type="button" value="1342" class="sidebtn">
+                <input type="button" value="1342b" class="sidebtn">
+                <input type="button" value="1564" class="sidebtn">
+                <input type="button" value="1564b" class="sidebtn">
+                <input type="button" value="1557" class="sidebtn">
+                <input type="button" value="1571" class="sidebtn">
+                <input type="button" value="1755" class="sidebtn">
+                <input type="button" value="1793" class="sidebtn">
+                <input type="button" value="1885" class="sidebtn">
+            </div>
+        
+            <div id="component">
+                <!--<form action="" id="form"> -->
+                    <div class="control">
+                        <input list="itemList" id="drop-down" autocomplete="off">
+                        <input type="button" value="Submit" id="submit">
+                        <input type="button" value="Clear" id="clearbtn">
+                    </div>
+                <!--</form> -->
+
+                <div class="description">
+                    <span id="desc" class="outbox"></span>
+                </div>
+
+                <div class="output">
+                    <div class="master-ctn">
+                        <span class="title">Master Carton</span>
+
+                        <container class="contain">
+                            <span class="weight section">Weight</span>
+                            <span class="mst-weight outbox"></span>
+                        </container>
+
+                        <container class="contain">
+                            <span class="dims section">Dims</span>
+                            <span class="mst-dims outbox"></span>
+                        </container>
+
+                        <container class="contain">
+                            <span class="volume section">Volume</span>
+                            <span class="mst-volume outbox"></span>
+                        </container>
+                    </div>
+
+                    <div class="inner-ctn">
+                        <span class="title">Inner Carton</span>
+
+                        <container class="contain">
+                            <span class="weight section">Weight</span>
+                            <span class="inn-weight outbox"></span>
+                        </container>
+
+                        <container class="contain">
+                            <span class="dims section">Dims</span>
+                            <span class="inn-dims outbox"></span>
+                        </container>
+
+                        <container class="contain">
+                            <span class="volume section">Volume</span>
+                            <span class="inn-volume outbox"></span>
+                        </container>    
+                    </div>
+
+                    <div class="item-ea">
+                        <span class="title">Item Ea.</span>
+                        <container class="contain">
+                            <span class="weight section">Weight</span>
+                            <span class="ea-weight outbox"></span>
+                        </container>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

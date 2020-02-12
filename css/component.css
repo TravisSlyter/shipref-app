@@ -1,0 +1,139 @@
+#component {
+    display: grid;
+    grid-template-rows: 16% 10% 74%;
+}
+
+/*/////// CONTROL ///////////*/
+.control {
+    padding: 40px 25px 0 25px;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+#drop-down {
+    margin-right: 10px;
+    height: 70px;
+    background-color: var(--background1);
+    border: var(--border);
+    color: var(--color3);
+    font-size: 34px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.control input[type=button] {
+    height: 60px;
+    margin: 7px 0 0 0;
+    background-color: var(--background1);
+    border: var(--border);
+    color: var(--color);
+    font-size: 18px;
+}
+
+#submit {
+    border-bottom: 8px solid var(--color2);
+}
+
+#clearbtn {
+    border-bottom: 8px solid var(--color1);
+}
+
+
+
+/*////// DESC ////////////////*/
+
+.description {
+    padding: 5px 25px 0 25px;
+}
+
+#desc {
+    height: 60px;
+    width: 100%;
+    background-color: var(--background1);
+    display: grid;
+    border: var(--border);
+    color: var(--color2);
+    font-size: 34px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*//////////// OUTPUT /////////////*/
+.output {
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    color: var(--color);
+    font-size: 28px;
+}
+
+.contain span {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+/*//////////// Master CTN ////////////*/
+.master-ctn {
+    display: grid;
+    grid-template-rows: 25%;
+}
+
+
+
+.title {
+    display: grid;
+    justify-content: center;
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+}
+
+.outbox {
+    display: grid;
+    width: 75%;
+    height: 45px;
+    border: var(--border);
+    background-color: var(--background1);
+    margin-top: 8px;
+}
+
+.mst-weight {
+    color: var(--color3);
+    border-bottom: var(--border3);
+}
+
+.mst-dims {
+    color: var(--color3);
+    border-bottom: var(--border3);
+}
+
+
+/*//////////// INNER CTN //////////////*/
+.inner-ctn {
+    display: grid;
+    grid-template-rows: 25%;
+}
+
+/*//////////// ITEM EA //////////////*/
+.item-ea {
+    display: grid;
+}
+
+
+
+
+
+
+

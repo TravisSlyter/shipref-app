@@ -1,0 +1,63 @@
+@import "header.css";
+@import "sidebar.css";
+@import "component.css";
+
+:root {
+    --border: 1px solid black;
+    --background1: #272822;
+    --sidebar: #272822;
+    --sidebarcolor: #e3e3dd;
+    --headercolor: #272822;
+    --tabwell: #1e1f1c;
+    --selection: #414339;
+    --color: #e3e3dd;
+    --color1: rgb(230, 97, 20);
+    --color2: rgb(59, 131, 240);
+    --color3: var(--color1);
+    --border2: 1px solid black;
+    --border3: var(--border2);
+    --inshadow: inset 0 0 12px #4972be;
+}
+
+[data-theme="light"] {
+    --border: 1px solid gray;
+    --background1: white;
+    --tabwell: white;
+    --selection: gray;
+    --color: black;
+    --color3: black;
+    --sidebar: rgb(59, 131, 240);
+    --sidebarcolor: white;
+    --headercolor: rgb(59, 131, 240);
+    --border2: 1px solid rgb(92, 86, 86);
+    --border3: 4px solid rgb(59, 131, 240);
+    --inshadow: inset 0 0 12px #3d3c3c;
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--selection);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+input[type=button]:hover {
+    box-shadow: var(--inshadow);
+}
+
+input[type=button]:active {
+    transform: translate(4px, 4px);
+}
+
+#ui {
+    margin: 10px;
+    width: 640px;
+    height: 948px;
+    background-color: var(--tabwell);
+}
+
+
