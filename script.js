@@ -30,7 +30,7 @@ const itemList = {
 
     hl1243: { part: '1243', desc: 'Headlamp - Black', mwgt: '7.5 lb', mdim: '15x11x15', mvol: '1.43 cfm', iwgt: '1.7 lb', idim: '10x8x7', ivol: '.33 cfm', eawgt: '4 oz' },
 
-    hl1250: { part: '1250', desc: 'Mammoth - Yellow', mwgt: '20.9 lb', mdim: '21x14x13', mvol: '2.21 cf', iwgt: '9.8 lb', idim: '21x13x6', ivol: '.95 cf', eawgt: '11.4 oz' },
+    hl1250: { part: '1250', desc: 'Mammoth - Yellow', mwgt: '20.9 lb', mdim: '21x14x10', mvol: '1.7 cf', iwgt: '9.8 lb', idim: '21x13x5', ivol: '.79 cf', eawgt: '11.4 oz' },
 
     hl1304: { part: '1304', desc: 'PUC - Black', mwgt: '17.4 lb', mdim: '21x19x15', mvol: '3.46 cf', iwgt: '3.9 lb', idim: '21x9x7', ivol: '.76 cfm', eawgt: '8 oz' },
 
